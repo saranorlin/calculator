@@ -17,4 +17,4 @@ eval "$(pyenv init -)"
 8. `export DJANGO_SETTINGS_MODULE=mycalculator.settings`
 9. `python3 manage.py runserver `
 
-- https://docs.djangoproject.com/en/4.2/intro/tutorial01/#the-development-server 
+- https://docs.djangoproject.com/en/4.2/intro/tutorial02/#database-setup

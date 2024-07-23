@@ -15,6 +15,15 @@ eval "$(pyenv init -)"
 6. `pip3 install pipenv`
 7. cd into the project folder and `pipenv shell`
 8. `export DJANGO_SETTINGS_MODULE=mycalculator.settings`
-9. `python3 manage.py runserver `
+9. Create a file called `.pg_service.conf` at the user's home directory with the db info
+```
+[my_service]
+host=localhost
+user=USER
+dbname=NAME
+port=5432
+```
+10. `python3 manage.py runserver `
 
+- do this next: https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/ 
 - https://docs.djangoproject.com/en/4.2/intro/tutorial02/#database-setup

@@ -8,3 +8,4 @@ python_version = "3.9"
 
 [packages]
 Django = "~=4.2.14"
+psycopg = "*"

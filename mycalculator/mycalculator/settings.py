@@ -80,9 +80,9 @@ DATABASES = {
             "service": "my_service",
             "passfile": ".my_pgpass",
         },
-        "NAME": "mydatabase",
-        "USER": "mydatabaseuser",
-        "PASSWORD": "mypassword",
+        "NAME": "calculator_db",
+        "USER": "calcuser",
+        "PASSWORD": "password",
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }

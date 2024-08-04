@@ -25,5 +25,15 @@ port=5432
 ```
 10. `python3 manage.py runserver `
 
-- do this next: https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/ 
-- https://docs.djangoproject.com/en/4.2/intro/tutorial02/#database-setup
+## Setting up initial DB:
+https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/ 
+- `brew services start postgresql`
+- `psql postgres`
+- `CREATE ROLE calcuser WITH LOGIN PASSWORD 'password';`
+- `ALTER ROLE calcuser CREATEDB;`
+- `CREATE DATABASE calculator_db;`
+
+## Run migrations:
+- `python3 manage.py migrate`
+
+next: https://docs.djangoproject.com/en/4.2/intro/tutorial02/#creating-models
